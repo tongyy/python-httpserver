@@ -1,2 +1,2 @@
 pushd ./resource
-nohup python ../HTTP_Server.py 8001 &> ../nohup.out &
+nohup python ../HTTP_Server.py 8002 &> ../nohup.out &

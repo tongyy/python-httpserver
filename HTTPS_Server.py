@@ -23,7 +23,7 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 Handler = ServerHandler
 
 httpd = BaseHTTPServer.HTTPServer(("", PORT),Handler)
-httpd.socket = ssl.wrap_socket (httpd.socket, certfile='./cert.pem', server_side=True)
+httpd.socket = ssl.wrap_socket (httpd.socket, certfile='../cert.pem', server_side=True)
 ip = socket.gethostbyname(socket.gethostname())
 print "Serving at: https://%(interface)s:%(port)s" % dict(interface=ip or "localhost", port=PORT)
 httpd.serve_forever()
