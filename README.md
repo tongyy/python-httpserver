@@ -1,7 +1,7 @@
 # python-httpserver
 Easy to use and make fake response over http/https
 
-Just three steps as follows
+Just four steps as follows
 
 * Install dependent module
 
@@ -13,6 +13,11 @@ npm install
 
 ```shell
 sh buils.sh
+```
+* Run startHttpServer.sh/startHttpsServer script 
+
+```shell
+sh startHttpServer.sh
 ```
 
 * :+1: Open your browser to test (https://localhost:8001 or http://localhost:8002)
