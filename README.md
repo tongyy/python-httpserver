@@ -9,7 +9,7 @@ Just four steps as follows
 npm install
 ```
 
-* Run build.sh script (The option for https protocal)
+* Run build.sh script (This step is for https protocal)
 
 ```shell
 sh buils.sh
