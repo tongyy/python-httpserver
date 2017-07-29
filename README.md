@@ -25,7 +25,7 @@ sh startHttpServer.sh
  Fake Response
  
  
- You can put what you want that can be "res.json,xxx.xml.." in the resource folder, and then your url would be
+ You can put what you want. "res.json,xxx.xml.." in the resource folder, and then your url would be
  http://localhost:8001/{xxx.xml}
 
 
